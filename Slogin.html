@@ -3,9 +3,40 @@
 <head>
 	<title>Student Login</title>
 	<style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header {
+        background-color: #0b0a0a;
+        padding: 20px;
+        text-align: center;
+        border-radius: 2px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+      }
+      nav ul li {
+        margin: 0 10px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
 		body {
-			background-color: #050000;
+			background-color: #0b0a0a;
+            color: #f9f6f6;
 		}
+        body form{
+            color: #0b0a0a;
+        }
 		
 		form {
 			width: 400px;
@@ -42,6 +73,17 @@
 	</style>
 </head>
 <body>
+    <header>
+        <h1>EduLight</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </nav>
+    </header>
 	<form>
 		<h2>Student Login</h2>
 		<label for="username">Username:</label>
@@ -49,6 +91,7 @@
 		<label for="password">Password:</label>
 		<input type="password" id="password" name="password" placeholder="Enter your password...">
 		<input type="submit" value="Login">
+        <input type="submit" value="SignUP">
 	</form>
 </body>
 </html>
