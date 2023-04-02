@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Login</title>
+	<style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header {
+        background-color: #0b0a0a;
+        padding: 20px;
+        text-align: center;
+        border-radius: 2px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+      }
+      nav ul li {
+        margin: 0 10px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+		body {
+			background-image: url('photos/Screenshot 2023-04-02 at 9.53.46 AM.png');
+      font-family: 'Roboto', sans-serif;
+      color: #f9f6f6;
+		}
+        body form{
+            color: #0b0a0a;
+        }
+		
+		form {
+			width: 400px;
+			margin: 50px auto;
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+		}
+		
+		input[type="text"], input[type="password"] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <h1>EduLight</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </nav>
+    </header>
+	<form>
+		<h2>Student Login</h2>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" placeholder="Enter your username...">
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password...">
+		<input type="submit" value="Login">
+    <a href="Ssignup.html">SignUP</a>
+	</form>
+  <footer>
+    <nav>
+    <ul>       <li> <a href="#">FAQs</a></li>
+<li>      <a href="#">Help</a></li>
+<li>     <a href="#">Developers</a></li>
+<li>    <a href="#"></a>More</li>
+</ul></nav>
+</footer>
+</body>
+</html>
