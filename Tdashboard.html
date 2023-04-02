@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teacher Dashboard</title>
+	<style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+		body {
+			background-image: url('photos/Screenshot 2023-04-02 at 9.53.46 AM.png');
+			color: #fffdfd;
+			font-family: 'Roboto', sans-serif;
+
+		}
+		
+		header {
+			background-color:rgb(31, 10, 54);
+			color: #ffffff;
+			padding: 20px;
+            
+			text-align: center;
+		}
+		
+		h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+        h2{
+            text-align: center;
+        }
+		
+		nav {
+			background: rgb(3, 74, 65);
+			border: 1px solid #cccccc;
+			border-radius: 5px;
+			margin: 20px;
+            padding-right: 30px;
+            padding-left: 30px;
+			text-align: center;
+		}
+		
+		nav a {
+			color: #ffffff;
+			display: inline-block;
+			margin: 10px;
+			padding: 10px;
+			text-decoration: none;
+			transition: background-color 0.2s ease-in-out;
+		}
+		
+		nav a:hover {
+			background-color: #cccccc;
+		}
+		
+		section {
+			margin: 20px;
+			padding: 20px;
+		}
+        p{
+            margin-left: 20px;
+        }
+		
+		table {
+			border-collapse: collapse;
+			margin: 20px;
+			width: 100%;
+		}
+		
+		th, td {
+			border: 1px solid #cccccc;
+			padding: 10px;
+			text-align: left;
+		}
+		
+		th {
+			background-color:rgb(3, 74, 65);
+			font-weight: bold;
+		}
+		
+		td {
+			vertical-align: top;
+		}
+		
+		footer {
+			background-color: rgb(31, 10, 54);
+			color: #ffffff;
+			padding: 20px;
+			text-align: center;
+            margin-top: 175px;
+		}
+		
+		footer p {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Teacher Dashboard</h1>
+	</header>
+	<nav>
+		<a href="#">My Profile</a>
+		<a href="#">Classes</a>
+		<a href="#">Grades</a>
+	</nav>
+	<section>
+		<h2>Welcome, XYZ</h2>
+		<p>Here's some information about your classes:</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Serial no.</th>
+					<th>Subjects</th>
+					<th>MyTopics</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Mathematics</td>
+					<td>
+                        <label><input type="checkbox" name="subject" value="Algebra"> Algebra</label>
+                        <label><input type="checkbox" name="subject" value="Calculus"> Calculus</label>
+                        <label><input type="checkbox" name="subject" value="Geometry"> Geometry</label>
+                        
+                    </td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Physics</td>
+					<td>
+                        <label><input type="checkbox" name="subject" value="Nuclear"> Nuclear</label>
+                        <label><input type="checkbox" name="subject" value="Mechanics"> Mechanics</label>
+                        <label><input type="checkbox" name="subject" value="Electrical"> Electrical</label>
+                        
+                    </td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Chemistry</td>
+					<td>
+                        <label><input type="checkbox" name="subject" value="Inorganic"> Inorganic</label>
+                        <label><input type="checkbox" name="subject" value="Organic"> Calculus</label>
+                        <label><input type="checkbox" name="subject" value="Physical"> Physical</label>
+                    </td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<footer>
+		<p>&copy; 2023 Teacher Dashboard</p>
+	</footer>
+</body>
+</html>
